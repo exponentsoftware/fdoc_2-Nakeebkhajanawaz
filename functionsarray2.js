@@ -48,7 +48,7 @@ const users = [
     }
     ];
 
-    //filter the score
+    //filter the scores
     function fnFilter(){
         users.filter(user => {
             if(user.scores > 85){
