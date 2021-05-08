@@ -71,7 +71,7 @@ const users = [
         //console.log(users);
     }
     addUser()
-
+    //add skill of the user
     function addUserSkill(){
         users.forEach(user => {
             if(user.name === 'John'){
