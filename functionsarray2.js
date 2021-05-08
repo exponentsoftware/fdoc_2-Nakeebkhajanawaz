@@ -57,7 +57,7 @@ const users = [
         });
     }
     fnFilter()
-
+     //add User in the array if does not exist
     function addUser(){
         users.forEach(user => {
             if(user.name !== 'Vakul'){
