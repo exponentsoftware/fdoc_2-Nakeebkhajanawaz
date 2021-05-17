@@ -84,7 +84,7 @@ const users = [
     }
     addUserSkill()
 
-//  function that editUser if the user exist in the users array.
+//  function that editUser if the user exist in the users array.  //
  
 
     function editUser(){
