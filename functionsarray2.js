@@ -70,6 +70,7 @@ const users = [
         });
         //console.log(users);
     }
+    
     addUser()
     //add skill of the user
     function addUserSkill(){
@@ -78,7 +79,8 @@ const users = [
                 user.skills[1] = 'REACT'
             }
         });
-         console.log(users)
+ 
+        console.log(users)
     }
     addUserSkill()
 
