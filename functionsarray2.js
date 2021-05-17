@@ -78,6 +78,7 @@ const users = [
     addUserSkill()
 
 //  function that editUser if the user exist in the users array.
+ 
 
     function editUser(){
         users.map(user => {
@@ -88,6 +89,7 @@ const users = [
       console.log(users)
     }
     editUser()
+    
 
     
     
