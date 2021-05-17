@@ -68,9 +68,9 @@ const users = [
                 users.age = 21
             }
         });
-        //console.log(users);
+        //console.log(users); 
     }
-    
+
     addUser()
     //add skill of the user
     function addUserSkill(){
