@@ -1,3 +1,8 @@
+/*Write a function which filter users who has scoresGreaterThan85,
+Write a function which addUser to the user array only if the user does not exist.
+Write a function which addUserSkill which can add skill to a user only if the user exist.
+Write a function which editUser if the user exist in the users array.*/
+
 const users = [
     {
         name:'Brook', 
@@ -43,7 +48,7 @@ const users = [
     }
     ];
 
-    //filter the score
+    //filter the scores
     function fnFilter(){
         users.filter(user => {
             if(user.scores > 85){
@@ -52,7 +57,7 @@ const users = [
         });
     }
     fnFilter()
-
+     //add User in the array if does not exist
     function addUser(){
         users.forEach(user => {
             if(user.name !== 'Vakul'){
@@ -66,7 +71,7 @@ const users = [
         //console.log(users);
     }
     addUser()
-
+    //add skill of the user
     function addUserSkill(){
         users.forEach(user => {
             if(user.name === 'John'){
